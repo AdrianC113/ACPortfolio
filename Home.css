@@ -1,0 +1,56 @@
+body {
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    font-family: 'Inter', sans-serif;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+p1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+.intro {
+    padding: 30px;
+    text-align: justify;
+    max-width: 800px;
+    font-size: 30px;
+}
+
+.profile-image {
+    width: 320px;
+    max-height: 320px;
+    margin-inline-end: 4rem;
+    border-radius: 15rem;
+    padding: 25px;
+}
+
+.bio {
+    display: inline-flex
+}
+
+@media (max-width:1024px){
+    .bio {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+}
+
+.button {
+    text-decoration: none;
+    color:rgb(252, 252, 255);
+    background: #1348DA;
+    padding: 0 1rem;
+    height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 1.25rem;
+}
+
+.button:hover {background-color: #171f8d}
+  
