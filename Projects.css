@@ -1,0 +1,57 @@
+body {
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    font-family: 'Inter', sans-serif;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-attachment: fixed; 
+}
+
+
+@media (max-width:1024px){
+    .bio {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.button {
+    text-decoration: none;
+    color:rgb(252, 252, 255);
+    background: #1348DA;
+    padding: 0 1rem;
+    height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 1.25rem;
+}
+
+.button:hover {background-color: #171f8d}
+
+.article-image {
+    float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+article {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    article {
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-image {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
